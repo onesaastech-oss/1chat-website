@@ -27,7 +27,7 @@ export default function BusinessPolicy() {
                             Company Overview
                         </h2>
                         <p className="text-slate-600 leading-relaxed">
-                            OneSaaS Technologies Private Limited is a technology company focused on developing web-based CRM and office management software. Our flagship product, OneSaaS Office Management System (OOMS), is designed for Chartered Accountants, Cost Accountants, Company Secretaries, Advocates, and professional service providers to manage their staff, clients, tasks, and finances seamlessly through a centralized platform.
+                            OneSaaS Technologies Private Limited is a technology company focused on developing web-based CRM and office management software. Our flagship product, OneSaaS Office Management System (w1chatting), is designed for Chartered Accountants, Cost Accountants, Company Secretaries, Advocates, and professional service providers to manage their staff, clients, tasks, and finances seamlessly through a centralized platform.
                         </p>
                     </section>
 
@@ -38,7 +38,7 @@ export default function BusinessPolicy() {
                             Product and Services
                         </h2>
                         <ul className="list-disc list-outside ml-12 space-y-2 text-slate-600">
-                            <li>Subscription-based access to our OOMS web application.</li>
+                            <li>Subscription-based access to our w1chatting web application.</li>
                             <li>Custom software development for professionals.</li>
                             <li>Technical support and software updates.</li>
                             <li>Optional integration services (e.g., payment gateways, APIs, document signing tools).</li>
@@ -93,7 +93,7 @@ export default function BusinessPolicy() {
                             Terms of Use
                         </h2>
                         <ul className="list-disc list-outside ml-12 space-y-2 text-slate-600">
-                            <li>The OOMS platform is licensed to subscribers for professional use only.</li>
+                            <li>The w1chatting platform is licensed to subscribers for professional use only.</li>
                             <li>Unauthorized reselling, reverse engineering, or hacking attempts will result in account termination and legal action.</li>
                             <li>Users are responsible for the activities under their account and must maintain the confidentiality of their login credentials.</li>
                         </ul>

@@ -313,10 +313,6 @@ export default function Home() {
                     </li>
                   ))}
                 </ul>
-
-                <button className={`mt-10 w-full rounded-xl py-4 text-sm font-black transition-all shadow-lg ${plan.popular ? 'bg-green-600 text-white hover:bg-green-700 hover:shadow-xl' : 'bg-slate-100 text-slate-900 hover:bg-slate-200'}`}>
-                  Select {plan.name}
-                </button>
               </div>
             ))}
           </div>
