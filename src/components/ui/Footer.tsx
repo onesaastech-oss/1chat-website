@@ -18,7 +18,7 @@ export function Footer() {
                             <img src="/logo-white.png" width={120} alt="" />
                         </div>
                         <p className="max-w-md text-base leading-relaxed">
-                            Web-based CRM for CA, CS, CMA, Advocate & Tax Practitioners. Powered by official WhatsApp Cloud API for modern tax firm automation.
+                            Whatsapp for marketing and automation with latest AI technology. Powered by official WhatsApp Cloud API for modern tax firm automation.
                         </p>
                         <div className="mt-8 flex gap-4">
                             <div className="h-10 w-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-green-600 transition-colors cursor-pointer">
@@ -55,7 +55,7 @@ export function Footer() {
 
                 <div className="border-t border-slate-800 pt-12 flex flex-col md:flex-row justify-between items-center gap-6">
                     <div className="text-center md:text-left">
-                        <p className="text-sm">© 2026 OOMS - OneSaaS Office Management System. All Rights Reserved.</p>
+                        <p className="text-sm">© 2026 1Chatting platform. All Rights Reserved.</p>
                         <p className="text-[10px] uppercase tracking-[0.2em] text-slate-600 mt-1 font-bold">OneSaas Technologies Private Limited</p>
                     </div>
                     <div className="flex items-center gap-6 text-xs font-bold uppercase tracking-widest">
