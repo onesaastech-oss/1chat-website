@@ -138,6 +138,7 @@ export const Globe = ({
                 onPointerUp={handlePointerUp}
                 onPointerLeave={handlePointerUp}
                 onPointerMove={handlePointerMove}
+                className="pointer-events-none lg:pointer-events-auto touch-none"
                 style={{
                     width: "100%",
                     height: "100%",
@@ -147,9 +148,7 @@ export const Globe = ({
                     transition: "opacity 1s ease",
                     cursor: 'grab',
                     borderRadius: '50%', // Circular hit area
-                    pointerEvents: 'auto', // Only canvas captures events
                     userSelect: 'none',
-                    touchAction: 'none', // Prevent scroll while dragging
                 }}
             />
         </div>
