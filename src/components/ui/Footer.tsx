@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import {
     Globe as GlobeIcon,
     MessageSquare,
@@ -47,7 +47,7 @@ export function Footer() {
                             <li className="hover:text-green-400 transition-colors cursor-pointer">Flow Maker</li>
                             <li className="hover:text-green-400 transition-colors cursor-pointer">API Docs</li>
                             <li className="hover:text-green-400 transition-colors">
-                                <Link href="/contact">Contact Us</Link>
+                                <Link to="/contact">Contact Us</Link>
                             </li>
                         </ul>
                     </div>
@@ -59,10 +59,10 @@ export function Footer() {
                         <p className="text-[10px] uppercase tracking-[0.2em] text-slate-600 mt-1 font-bold">OneSaas Technologies Private Limited</p>
                     </div>
                     <div className="flex items-center gap-6 text-xs font-bold uppercase tracking-widest">
-                        <Link href="/business-policy" className="hover:text-white cursor-pointer transition-colors">Business Policy</Link>
-                        <Link href="/privacy-policy" className="hover:text-white cursor-pointer transition-colors">Privacy</Link>
-                        <Link href="/terms" className="hover:text-white cursor-pointer transition-colors">Terms</Link>
-                        <Link href="/contact" className="hover:text-white cursor-pointer transition-colors">Contact</Link>
+                        <Link to="/business-policy" className="hover:text-white cursor-pointer transition-colors">Business Policy</Link>
+                        <Link to="/privacy-policy" className="hover:text-white cursor-pointer transition-colors">Privacy</Link>
+                        <Link to="/terms" className="hover:text-white cursor-pointer transition-colors">Terms</Link>
+                        <Link to="/contact" className="hover:text-white cursor-pointer transition-colors">Contact</Link>
                     </div>
                 </div>
             </div>

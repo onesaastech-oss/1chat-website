@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '@/components/ui/Navbar';
-import { Footer } from '@/components/ui/Footer';
+import Navbar from '../../components/ui/Navbar';
+import { Footer } from '../../components/ui/Footer';
 import { MapPin, Phone, Mail, Globe as GlobeIcon } from 'lucide-react';
 
 export default function ContactUs() {

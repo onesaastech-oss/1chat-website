@@ -13,19 +13,16 @@ import {
   FileText,
   Cpu,
   PieChart,
-  Mail,
-  Phone,
-  MapPin,
   ArrowRight,
   ShieldCheck,
   Globe as GlobeIcon,
   Sparkles
 } from "lucide-react";
-import { PointerHighlight } from "@/components/ui/pointer-highlight";
-import { Globe } from "@/components/ui/globe";
-import Navbar from '@/components/ui/Navbar';
-import { TeamSection } from '@/components/TeamSection';
-import { Footer } from '@/components/ui/Footer';
+import { PointerHighlight } from "../components/ui/pointer-highlight";
+import { Globe } from "../components/ui/globe";
+import Navbar from "../components/ui/Navbar";
+import { TeamSection } from "../components/TeamSection";
+import { Footer } from "../components/ui/Footer";
 
 export default function Home() {
   const [isMounted, setIsMounted] = useState(false);
