@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../../components/ui/Navbar';
-import { Footer } from '../../components/ui/Footer';
+import Navbar from '../components/ui/Navbar';
+import { Footer } from '../components/ui/Footer';
 
 export default function BusinessPolicy() {
     return (
@@ -10,7 +10,7 @@ export default function BusinessPolicy() {
             <main className="flex-grow">
                 {/* Header */}
                 <div className="bg-slate-50 py-12 border-b border-slate-100">
-                    <div className="mx-auto max-w-4xl px-6 text-center">
+                    <div className="page-container text-center">
                         <h1 className="text-4xl font-black text-slate-900 sm:text-5xl mb-4">
                             Business Policy Document
                         </h1>
@@ -19,7 +19,7 @@ export default function BusinessPolicy() {
                 </div>
 
                 {/* Content */}
-                <div className="mx-auto max-w-4xl px-6 py-12 space-y-12">
+                <div className="page-container section-pad space-y-12">
                     {/* 1. Company Overview */}
                     <section>
                         <h2 className="text-2xl font-bold text-slate-900 mb-4 flex items-center gap-3">
@@ -27,7 +27,7 @@ export default function BusinessPolicy() {
                             Company Overview
                         </h2>
                         <p className="text-slate-600 leading-relaxed">
-                            OneSaaS Technologies Private Limited is a technology company focused on developing web-based CRM and office management software. Our flagship product, OneSaaS Office Management System (w1chatting), is designed for Chartered Accountants, Cost Accountants, Company Secretaries, Advocates, and professional service providers to manage their staff, clients, tasks, and finances seamlessly through a centralized platform.
+                            OneSaaS Technologies Private Limited is a technology company focused on developing web-based CRM and office management software. Our flagship product, OneChatting, is designed for Chartered Accountants, Cost Accountants, Company Secretaries, Advocates, and professional service providers to manage their staff, clients, tasks, and finances seamlessly through a centralized platform.
                         </p>
                     </section>
 
@@ -38,7 +38,7 @@ export default function BusinessPolicy() {
                             Product and Services
                         </h2>
                         <ul className="list-disc list-outside ml-12 space-y-2 text-slate-600">
-                            <li>Subscription-based access to our w1chatting web application.</li>
+                            <li>Subscription-based access to our OneChatting web application.</li>
                             <li>Custom software development for professionals.</li>
                             <li>Technical support and software updates.</li>
                             <li>Optional integration services (e.g., payment gateways, APIs, document signing tools).</li>
@@ -93,7 +93,7 @@ export default function BusinessPolicy() {
                             Terms of Use
                         </h2>
                         <ul className="list-disc list-outside ml-12 space-y-2 text-slate-600">
-                            <li>The w1chatting platform is licensed to subscribers for professional use only.</li>
+                            <li>The OneChatting platform is licensed to subscribers for professional use only.</li>
                             <li>Unauthorized reselling, reverse engineering, or hacking attempts will result in account termination and legal action.</li>
                             <li>Users are responsible for the activities under their account and must maintain the confidentiality of their login credentials.</li>
                         </ul>

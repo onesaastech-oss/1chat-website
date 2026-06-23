@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../../components/ui/Navbar';
-import { Footer } from '../../components/ui/Footer';
+import Navbar from '../components/ui/Navbar';
+import { Footer } from '../components/ui/Footer';
 
 export default function PrivacyPolicy() {
     return (
@@ -10,7 +10,7 @@ export default function PrivacyPolicy() {
             <main className="flex-grow">
                 {/* Header */}
                 <div className="bg-gradient-to-b from-slate-50 to-white py-16 border-b border-slate-100">
-                    <div className="mx-auto max-w-4xl px-6 text-center">
+                    <div className="page-container text-center">
                         <h1 className="text-5xl font-black text-slate-900 sm:text-6xl mb-6">
                             Privacy <span className="bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">Policy</span>
                         </h1>
@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
                 </div>
 
                 {/* Content */}
-                <div className="mx-auto max-w-4xl px-6 py-12 space-y-12">
+                <div className="page-container section-pad space-y-12">
                     {/* 1. Introduction */}
                     <section>
                         <h2 className="text-2xl font-bold text-slate-900 mb-4 flex items-center gap-3">
@@ -27,7 +27,7 @@ export default function PrivacyPolicy() {
                             Introduction
                         </h2>
                         <p className="text-slate-600 leading-relaxed">
-                            At <strong className="text-slate-900">1chat</strong> (a product of Onesaas Technologies Private Limited), we are deeply committed to protecting the privacy and security of our users. This Privacy Policy explains how we collect, use, store, and safeguard personal information when you use our WhatsApp Business API platform and related services. By accessing or using 1chat, you acknowledge that you have read, understood, and agree to be bound by this Privacy Policy.
+                            At <strong className="text-slate-900">OneChatting</strong> (a product of Onesaas Technologies Private Limited), we are deeply committed to protecting the privacy and security of our users. This Privacy Policy explains how we collect, use, store, and safeguard personal information when you use our WhatsApp Business API platform and related services. By accessing or using OneChatting, you acknowledge that you have read, understood, and agree to be bound by this Privacy Policy.
                         </p>
                     </section>
 
@@ -53,7 +53,7 @@ export default function PrivacyPolicy() {
                             <div>
                                 <h3 className="text-lg font-bold text-slate-900 mb-2">2.3 End-User Communication Data</h3>
                                 <p className="text-slate-600 leading-relaxed">
-                                    As a platform facilitating WhatsApp Business communications, we may process messages, media files, and contact information transmitted through our service. <strong className="text-slate-900">You are solely responsible</strong> for obtaining proper consent from your end-users before collecting or processing their personal information through WhatsApp messages sent via 1chat.
+                                    As a platform facilitating WhatsApp Business communications, we may process messages, media files, and contact information transmitted through our service. <strong className="text-slate-900">You are solely responsible</strong> for obtaining proper consent from your end-users before collecting or processing their personal information through WhatsApp messages sent via OneChatting.
                                 </p>
                             </div>
                         </div>

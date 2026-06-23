@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../../components/ui/Navbar';
-import { Footer } from '../../components/ui/Footer';
+import Navbar from '../components/ui/Navbar';
+import { Footer } from '../components/ui/Footer';
 
 export default function TermsAndConditions() {
     return (
@@ -10,7 +10,7 @@ export default function TermsAndConditions() {
             <main className="flex-grow">
                 {/* Header */}
                 <div className="bg-gradient-to-b from-slate-50 to-white py-16 border-b border-slate-100">
-                    <div className="mx-auto max-w-4xl px-6 text-center">
+                    <div className="page-container text-center">
                         <h1 className="text-5xl font-black text-slate-900 sm:text-6xl mb-6">
                             Terms & <span className="bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">Conditions</span>
                         </h1>
@@ -19,7 +19,7 @@ export default function TermsAndConditions() {
                 </div>
 
                 {/* Content */}
-                <div className="mx-auto max-w-4xl px-6 py-12 space-y-12">
+                <div className="page-container section-pad space-y-12">
                     {/* 1. Acceptance of Terms */}
                     <section>
                         <h2 className="text-2xl font-bold text-slate-900 mb-4 flex items-center gap-3">
@@ -27,7 +27,7 @@ export default function TermsAndConditions() {
                             Acceptance of Terms
                         </h2>
                         <p className="text-slate-600 leading-relaxed">
-                            Welcome to <strong className="text-slate-900">1chat</strong>, a WhatsApp Business API platform operated by Onesaas Technologies Private Limited. By accessing, registering for, or using our services, you agree to be bound by these Terms and Conditions (&quot;Terms&quot;). If you do not agree to these Terms, you must not use our platform. These Terms constitute a legally binding agreement between you and Onesaas Technologies Private Limited.
+                            Welcome to <strong className="text-slate-900">OneChatting</strong>, a WhatsApp Business API platform operated by Onesaas Technologies Private Limited. By accessing, registering for, or using our services, you agree to be bound by these Terms and Conditions (&quot;Terms&quot;). If you do not agree to these Terms, you must not use our platform. These Terms constitute a legally binding agreement between you and Onesaas Technologies Private Limited.
                         </p>
                     </section>
 
@@ -38,7 +38,7 @@ export default function TermsAndConditions() {
                             Service Description
                         </h2>
                         <p className="text-slate-600 leading-relaxed mb-4">
-                            1chat provides a subscription-based web platform that enables businesses to:
+                            OneChatting provides a subscription-based web platform that enables businesses to:
                         </p>
                         <ul className="list-disc list-outside ml-12 space-y-2 text-slate-600">
                             <li>Access and utilize the WhatsApp Business Cloud API</li>
@@ -149,7 +149,7 @@ export default function TermsAndConditions() {
                             <div>
                                 <h3 className="text-lg font-bold text-slate-900 mb-2">6.1 Our Intellectual Property</h3>
                                 <p className="text-slate-600 leading-relaxed">
-                                    The 1chat platform, including its software, features, functionality, design, graphics, logos, and content, is owned by Onesaas Technologies Private Limited and is protected by copyright, trademark, patent, and other intellectual property laws. You are granted a limited, non-exclusive, non-transferable license to access and use the platform solely for your business purposes in accordance with these Terms.
+                                    The OneChatting platform, including its software, features, functionality, design, graphics, logos, and content, is owned by Onesaas Technologies Private Limited and is protected by copyright, trademark, patent, and other intellectual property laws. You are granted a limited, non-exclusive, non-transferable license to access and use the platform solely for your business purposes in accordance with these Terms.
                                 </p>
                             </div>
                             <div>

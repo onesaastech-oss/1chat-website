@@ -1,7 +1,8 @@
 import React from 'react';
-import Navbar from '../../components/ui/Navbar';
-import { Footer } from '../../components/ui/Footer';
+import Navbar from '../components/ui/Navbar';
+import { Footer } from '../components/ui/Footer';
 import { MapPin, Phone, Mail, Globe as GlobeIcon } from 'lucide-react';
+import { REGISTER_URL } from '../config/platform';
 
 export default function ContactUs() {
     return (
@@ -11,7 +12,7 @@ export default function ContactUs() {
             <main className="flex-grow">
                 {/* Header */}
                 <div className="bg-gradient-to-b from-slate-50 to-white py-16 border-b border-slate-100">
-                    <div className="mx-auto max-w-4xl px-6 text-center">
+                    <div className="page-container text-center">
                         <h1 className="text-5xl font-black text-slate-900 sm:text-6xl mb-6">
                             Contact <span className="bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">Us</span>
                         </h1>
@@ -22,7 +23,7 @@ export default function ContactUs() {
                 </div>
 
                 {/* Content */}
-                <div className="mx-auto max-w-5xl px-6 py-16">
+                <div className="page-container section-pad">
                     {/* Contact Information Grid */}
                     <div className="grid md:grid-cols-2 gap-8 mb-16">
                         {/* Address */}
@@ -123,11 +124,14 @@ export default function ContactUs() {
                     <div className="mt-16 text-center bg-gradient-to-r from-green-600 to-emerald-600 rounded-3xl p-12 shadow-2xl shadow-green-200">
                         <h3 className="text-3xl font-black text-white mb-4">Ready to Get Started?</h3>
                         <p className="text-green-50 text-lg mb-8 max-w-2xl mx-auto">
-                            Experience the power of 1chat and transform your WhatsApp business communication today.
+                            Experience the power of OneChatting and transform your WhatsApp business communication today.
                         </p>
-                        <button className="bg-white text-green-600 px-8 py-4 rounded-xl font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all">
+                        <a
+                          href={REGISTER_URL}
+                          className="inline-block bg-white text-green-600 px-8 py-4 rounded-xl font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all"
+                        >
                             Start Free Trial
-                        </button>
+                        </a>
                     </div>
                 </div>
             </main>
