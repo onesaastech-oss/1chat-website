@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from '../components/ui/Navbar';
 import { Footer } from '../components/ui/Footer';
 
@@ -97,7 +98,7 @@ export default function TermsAndConditions() {
                             <div>
                                 <h3 className="text-lg font-bold text-slate-900 mb-2">4.2 Payment Processing</h3>
                                 <p className="text-slate-600 leading-relaxed">
-                                    Payments are processed through secure third-party payment gateways. By providing payment information, you authorize us to charge the applicable fees to your payment method. All fees are non-refundable except as expressly stated in our Refund Policy or required by law.
+                                    Payments are processed through secure third-party payment gateways. By providing payment information, you authorize us to charge the applicable fees to your payment method. All fees are non-refundable except as expressly stated in our <Link to="/refund-policy" className="text-green-600 hover:text-green-700 font-medium">Refund Policy</Link> or required by law.
                                 </p>
                             </div>
                             <div>

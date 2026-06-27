@@ -10,6 +10,7 @@ import ContactUs from "./pages/ContactUs";
 import BusinessPolicy from "./pages/BusinessPolicy";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndConditions from "./pages/TermsAndConditions";
+import RefundPolicy from "./pages/RefundPolicy";
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/business-policy" element={<BusinessPolicy />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<TermsAndConditions />} />
+        <Route path="/refund-policy" element={<RefundPolicy />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </>

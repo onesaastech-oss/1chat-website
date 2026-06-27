@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from '../components/ui/Navbar';
 import { Footer } from '../components/ui/Footer';
 
@@ -66,10 +67,11 @@ export default function BusinessPolicy() {
                             Refund and Cancellation Policy
                         </h2>
                         <ul className="list-disc list-outside ml-12 space-y-2 text-slate-600">
-                            <li>Subscriptions may be cancelled anytime before the renewal date.</li>
-                            <li>Refunds will be processed only if cancellation is made within 7 days of the initial payment for first-time subscriptions.</li>
-                            <li>No refunds will be provided for renewals or on services already consumed.</li>
-                            <li>Any technical dispute must be raised within 48 hours of service disruption for refund eligibility.</li>
+                            <li>Subscriptions may be cancelled anytime before the renewal date; cancellation does not entitle you to a refund.</li>
+                            <li>We do not offer refunds on subscription fees or services under normal circumstances.</li>
+                            <li>Refunds may be initiated only for unauthorized or erroneous system debits, after raising a support ticket.</li>
+                            <li>Approved refunds are processed within 7 working days from the date the ticket is raised.</li>
+                            <li>For full details, please refer to our dedicated <Link to="/refund-policy" className="text-green-600 hover:text-green-700 font-medium">Refund Policy</Link> page.</li>
                         </ul>
                     </section>
 
