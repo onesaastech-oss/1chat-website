@@ -2,6 +2,7 @@ import React from "react";
 import { CheckCircle2, Wallet } from "lucide-react";
 import { PageShell } from "../components/PageShell";
 import { PageHero } from "../components/PageHero";
+import { Reveal, Stagger, StaggerItem } from "../components/motion/Reveal";
 import { pricingNotes, pricingPlans } from "../data/marketing";
 import { REGISTER_URL } from "../config/platform";
 
@@ -15,9 +16,9 @@ export default function Pricing() {
 
       <section className="section-pad">
         <div className="page-container">
-          <div className="mb-8 grid gap-4 lg:grid-cols-2">
+          <Stagger className="mb-8 grid gap-4 lg:grid-cols-2">
             {pricingPlans.map((plan) => (
-              <div
+              <StaggerItem
                 key={plan.name}
                 className={`card relative flex flex-col ${
                   plan.popular ? "border-green-400 ring-1 ring-green-400/30" : ""
@@ -50,11 +51,11 @@ export default function Pricing() {
                 >
                   Choose {plan.name.toLowerCase()}
                 </a>
-              </div>
+              </StaggerItem>
             ))}
-          </div>
+          </Stagger>
 
-          <div className="card flex gap-4">
+          <Reveal className="card flex gap-4">
             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-green-50 text-green-600">
               <Wallet className="h-5 w-5" />
             </div>
@@ -67,9 +68,9 @@ export default function Pricing() {
                 downloadable receipts are available in the app.
               </p>
             </div>
-          </div>
+          </Reveal>
 
-          <div className="mt-8">
+          <Reveal className="mt-8">
             <h3 className="heading-3 mb-4">Good to know</h3>
             <ul className="space-y-2">
               {pricingNotes.map((note) => (
@@ -79,7 +80,7 @@ export default function Pricing() {
                 </li>
               ))}
             </ul>
-          </div>
+          </Reveal>
         </div>
       </section>
     </PageShell>
